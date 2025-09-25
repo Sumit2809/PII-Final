@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pytesseract
+pillow
+pdf2image
+spacy
+transformers
+torch          # required by transformers (may be heavy)
+#uvicorn app:app --reload #to activate server
+#.\.venv\Scripts\activate  #to activate virtual environment
